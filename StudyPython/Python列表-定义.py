@@ -22,6 +22,7 @@ nums=[1,2,3,4,5]
 # print(resultlist)
 
 # 列表推导式
-resultlist=[num **2 for num in nums if num%2!=0]
+# resultlist=[num **2 for num in nums if num%2!=0]
+# print(resultlist)
+resultlist=[num **2 for num in nums] #[1,1,1,1,1]
 print(resultlist)
-# resultlist=[num **2 for num in nums] [1,1,1,1,1]

@@ -6,10 +6,10 @@
 import collections
 isinstance(obj,collections.Iterable) True:可迭代
 '''
-nums=[1,2,3]
-import collections
-result=isinstance(nums,collections.Iterable)
-print(result)
+# nums=[1,2,3]
+# import collections
+# result=isinstance(nums,collections.Iterable)
+# print(result)
 
 #---------------------------迭代器---------------------------
 '''
@@ -19,15 +19,15 @@ print(result)
 判定依据：能作用与next()函数
 判定方法：
 import collections
-instance(obj,collections.Iterator) True:可迭代对象
+isinstance(obj,collections.Iterator) True:可迭代对象
 迭代器本身也是可迭代对象
 迭代器适合巨大数列：因为在此之前，元素可以不存在，在此之后，元素可以被销毁。
 因此它适合巨大和无限的数列，如：斐波那契数列（第三个元素是前两个元素的和）
 它提供了一个统一的访问集合接口：iter（Iterator）
 迭代器一般不能多次迭代
 '''
-result2=isinstance(nums,collections.Iterator)
-print(result2)
+# result2=isinstance(nums,collections.Iterator)
+# print(result2)
 
 # i=iter(nums)
 # 生成迭代器

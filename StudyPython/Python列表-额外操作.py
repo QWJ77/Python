@@ -12,11 +12,13 @@
 # cmp()内建函数，可以直接写出来，Python3不支持，直接用>,<,==
 
 # ----------------------------- 排序--------------------------------
-# sorted(iterable,key,reverse)返回一个排好序的列表，对所有可迭代对象进行排序
-# iterable可迭代对象
-# key排序关键字
-# reverse=True降序
-# 不改变列表本身!!!
+'''
+sorted(iterable,key,reverse)返回一个排好序的列表，对所有可迭代对象进行排序
+iterable可迭代对象
+key排序关键字
+reverse=True降序
+不改变列表本身!!!
+'''
 
 s="acbegscv"
 result=sorted(s,reverse=True)
@@ -31,9 +33,11 @@ print(result,s)
 # result=sorted(s,key=getKey,reverse=True)
 # print(result,s)
 
-# 方式二，列表排序法，只能操作列表
-# sort(key=None,reverse=False)
-# 列表本身被改变,并没有把排序结果返回给外界，而是更改了对象本身!!!!!!
+'''
+方式二，列表排序法，只能操作列表
+sort(key=None,reverse=False)
+列表本身被改变,并没有把排序结果返回给外界，而是更改了对象本身!!!!!!
+'''
 # l=[1,3,2,6,4,5]
 # l=[("sz",18),("sz1",16),("sz2",17),("sz3",15)]
 # def getKey(x):
@@ -42,17 +46,21 @@ print(result,s)
 # print(res,l)
 
 #-----------------------------------乱序和反转------------------------------------------
-# 乱序，随机打乱一个序列
-# 导入random模块，random.shuffle(list)
-# 直接改变列表本身！！！
+'''
+乱序，随机打乱一个序列
+导入random模块，random.shuffle(list)  shuffle洗牌
+直接改变列表本身！！！
+'''
 # import random
 # l=[1,2,3,4,5]
 # res=random.shuffle(l)
 # print(l,res)
 
-# 反转
-# reverse()
-# 直接改变列表本身！！！
+'''
+反转
+reverse()
+直接改变列表本身！！！
+'''
 # res=l.reverse()
 # print(l,res)
 
