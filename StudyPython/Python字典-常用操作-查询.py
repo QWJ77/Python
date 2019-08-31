@@ -15,7 +15,7 @@
 dic.pop(key[,default])弹出指定的对，并返回对应的值
 '''
 d={"name":"sz","age":"18"}
-v=d.get("age1",666)
+v=d.get("age1")
 print(v)
 
 # 方式三
@@ -43,5 +43,5 @@ d={"name":"sz","age":"18"}
 
 # 获取字典的键值对
 # dic.items()
-# i=d.items()
-# print(i)
+i=d.items()
+print(i)

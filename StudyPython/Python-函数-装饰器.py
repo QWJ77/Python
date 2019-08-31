@@ -48,7 +48,7 @@
 # def fss():
 #     print("发说说")
 
-# fss=check(fss)  #相当于变量名重新复制
+# fss=check(fss)  #相当于变量名重新赋值
 def zhuangshiqi_line(func):
     def inner():
         print("--------------------------")
