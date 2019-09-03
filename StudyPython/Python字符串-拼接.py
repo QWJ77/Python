@@ -4,5 +4,7 @@ num="1"   "3"
 print(num)
 # 方式三
 # "xxx%sxxx"%(a+b)
+a=b=10
+print('长%s米'%(a+b))
 # 方式四
 print("sz\t"*10)
