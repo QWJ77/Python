@@ -43,8 +43,8 @@ s2={3,4,5}
 # result=s1.union(s2)
 # print(result,s1)
 # result=s1|s2
-result=s1.update(s2)
-print(result,s1)
+# result=s1.update(s2)
+# print(result,s1)
 
 # 差集
 '''
@@ -59,11 +59,11 @@ print(result,s1)
 
 # 判定操作
 '''
-isdisjoint()两个集合不想交
+isdisjoint()两个集合不相交
 issuperset()一个集合包含另一个集合
 issubset()一个集合包含于另一个集合
 '''
 
-s1={1,2,3,4}
-s2={3,4,5}
-print(s1.isdisjoint(s2))
+# s1={1,2,3,4}
+# s2={3,4,5}
+# print(s1.isdisjoint(s2))
